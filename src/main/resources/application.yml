@@ -1,0 +1,24 @@
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: calculadora-backend-java
+
+#db:
+#  host: sql-server-001-dev.database.windows.net
+#  nameDb: DB_GESTOR
+#  password: FGA0vlGaBtfl3UtFfPnM
+#  port: 1433
+#  user: gvd@sql-server-001-dev
+#  driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+db:
+  host: localhost
+  nameDb: athPruebas
+  password: admin
+  port: 3306
+  user: root
+  driver: com.mysql.cj.jdbc.Driver
+
